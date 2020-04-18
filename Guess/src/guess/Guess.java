@@ -11,7 +11,7 @@ import java.util.TimerTask;
 
 /**
  *
- * @author dread
+ * @author Azaghul
  */
 
 public class Guess {
