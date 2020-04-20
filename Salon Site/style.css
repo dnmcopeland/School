@@ -1,0 +1,429 @@
+body 
+{
+margin: 0;
+padding: 0;
+text-align: left;
+font: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+background-color: #000000;
+}
+
+*
+{
+margin: 0 auto 0 auto;
+text-align: left;
+box-sizing: border-box;
+}
+
+#container
+{
+display: block; 
+height: auto;
+position: relative; 
+width: 1000px;
+padding-left: 17px;
+padding-right: 17px;
+overflow: hidden;
+background-color: #000000;
+}
+
+#links
+{
+display: block;
+float: right;	
+margin-top: 40px;
+margin-right: 10px;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+
+#links a 
+{
+background-color: #000000;
+color: slategrey;
+text-decoration: none;
+padding: 3px;
+}
+
+#links a:visited
+{
+font-size: 20px;
+font-weight: bold;
+margin-left: 4px;
+margin-right: 4px;
+color: slategray;
+text-decoration: none;
+}
+
+#links a:hover
+{
+background-color: mediumpurple; 
+color: #000000;
+border-radius: 25px;
+}
+
+#header
+{
+height:80px;
+}
+
+@font-face 
+{
+font-family: 'CloisterBlack'; 
+src: url('font/CloisterBlack.ttf') format('truetype'); 
+src: local('CloisterBlack.tff'), url('/font/CloisterBlack.ttf') format('truetype');
+}
+
+#header h1
+{
+margin-top: 15px;
+margin-left: 10px;
+font-size: 50px;
+color: mediumpurple;
+float: left;
+font-family: 'CloisterBlack' !important;
+}
+
+.off
+{
+color:slategray;
+}
+
+.contenttext h2
+{
+color: slategrey;
+font-size: 24px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.contenttext
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+#footer
+{
+font-size: 12px;
+color: slategrey;
+margin-top: 18px;
+width: 1000px;
+text-align: center;
+}
+
+#footer a, #footer a:visited
+{
+text-align: center;
+color: slategrey;
+text-decoration: none;
+}
+
+html, body {
+text-align: left;
+}
+
+p 
+{
+text-align: left;
+}
+
+/* Start index logo */
+
+.contentimg
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.contentimg p
+{ 
+text-align: center;
+width: 1000px;
+}
+
+#title
+{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 900px;
+  height: 500px;
+  padding-top: 10px;
+}
+
+.contentimg h2 
+{
+font-size: 24px;
+margin-bottom: 10px;
+margin-top: 10px;
+text-align: center;
+color: slategrey;
+}
+
+/* End index logo */
+
+/* Start appointments */
+
+.mainappoint 
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.mainappoint p
+{
+color: slategray;
+}
+
+.mainappoint h2
+{
+font-size: 24px;
+margin-bottom: 10px;
+margin-top: 10px;
+color: slategray;
+}
+
+.mainappoint label 
+{
+display: block;
+float: left;
+width: 120px; 
+padding-right: 10px;
+padding-left: 30px;
+}
+
+.mainappoint input
+{
+display: block; 
+margin-left: 120px;
+margin-bottom: 15px;
+}
+
+.mainappoint input[type=submit]
+{
+background-color: mediumpurple;
+color: black;
+border-color: mediumpurple;
+border-radius: 25px;
+margin-left: 120px;
+}
+
+/* End appoinments */
+
+/* Start gallery content */
+
+.contentgal
+{
+padding-left: 10px;
+padding-right: 10px;
+width: 500px;
+}
+
+.contentgal p
+{
+color: slategray;
+}
+
+.contentgal h2
+{
+font-size: 24px;
+margin-bottom: 10px;
+margin-top: 10px;
+color: slategray;
+text-align: center;
+font-weight: bold;
+}
+
+/* End gallery content */
+
+/* Services Start */
+
+.contentser
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.contentser p
+{
+color: slategray;
+}
+
+.contentser ul
+{
+font-size: 20px;
+}
+
+.contentser h2
+{
+font-size: 36px;
+margin-bottom: 10px;
+margin-top: 10px;
+color: slategray;
+font-weight: bold;
+}
+
+/* Services End */
+
+/* Contact Start */
+
+.contentcon
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.contentcon p
+{
+color: slategray;
+}
+
+.contentcon ul
+{
+font-size: 20px;
+list-style: none;
+}
+
+.contentcon h2
+{
+font-size: 36px;
+margin-bottom: 10px;
+margin-top: 10px;
+color: slategray;
+font-weight: bold;
+}
+
+/* Contact End */
+
+/* Start image gallery */
+/*
+.gallery * 
+{
+box-sizing: border-box;
+}
+*/
+.gallerycontainer
+{
+position: relative;
+}
+
+.gallerySlides
+{
+display: none;
+}
+
+.gallerycursor
+{
+cursor: pointer;
+}
+
+.prev, .next
+{
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: #FFFFFF;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 0 3px;
+user-select: none;
+-webkit-user-select: none;
+}
+
+.next
+{
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover
+{
+background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext
+{
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.caption-container
+{
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: #FFFFFF;
+}
+
+.row:after
+{
+content: "";
+display: table;
+clear: both;
+}
+
+.column
+{
+float: left;
+width: 16.66%;
+}
+
+.demo
+{
+opacity: 0.6;
+}
+
+.active, .demo:hover
+{
+opacity: 1;
+}
+
+/* End image gallery */
+
+/* Start About */
+
+.contentab
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#danny
+{
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+width: 300px;
+height: 300px;
+border-radius: 25px;
+}
+
+.contentab p
+{
+color: slategray;
+text-align: center;
+width: 300px;
+font-size: 18px;
+}
+
+.contentab h2
+{
+font-size: 36px;
+margin-bottom: 10px;
+margin-top: 10px;
+color: slategray;
+font-weight: bold;
+text-align: center;
+}
+
+/* End About */
