@@ -1,2 +1,0 @@
-C:\Users\dread\source\repos\StudentRegistration\Debug\StudentRegistration.exe
-C:\Users\dread\source\repos\StudentRegistration\Debug\StudentRegistration.pdb
